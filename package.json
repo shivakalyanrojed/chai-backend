@@ -1,0 +1,19 @@
+{
+  "name": "chai-backend",
+  "version": "1.0.0",
+  "description": "A video series of backend ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "chai"
+  ],
+  "author": "shivakalyan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
