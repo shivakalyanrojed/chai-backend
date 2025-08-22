@@ -2,7 +2,7 @@ import {app} from "./app.js";
 import connectDB from "./db/index.js";
 import 'dotenv/config.js';
 
-
+// Connect to MongoDB and start the server
 connectDB()
     .then(() => {
         app.listen(process.env.PORT || 8000, () => {
